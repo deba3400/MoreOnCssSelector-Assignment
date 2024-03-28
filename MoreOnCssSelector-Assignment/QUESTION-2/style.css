@@ -1,0 +1,13 @@
+nav ul li,a{
+    list-style-type: none;
+    text-decoration:none;
+    
+    
+}
+nav ul li{
+    display:inline;
+    
+}
+li~li{
+    margin-left: 60px;
+}

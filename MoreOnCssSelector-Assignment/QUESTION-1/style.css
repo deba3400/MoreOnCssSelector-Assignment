@@ -1,0 +1,44 @@
+/* <----------------Combinator Selector---------------> */
+
+div ul li a{
+    color:red;
+}
+nav>h2{
+    color:blue;
+    background-color: grey;
+}
+div+p{
+    color:red;
+}
+
+
+/* </--------------------Attribute Selector----------------------> */
+
+[href]{
+    color:red;
+    text-decoration: none;
+}
+[class*="active"]{
+    color:blue;
+    text-decoration:underline;
+}
+a[target="_self"]{
+    background-color: yellow;
+
+}
+/* <--------------------pseudo Selector-------------------> */
+nav p:last-child::after{
+    content:'...';
+    
+}
+ul li::marker{
+    color:red;
+}
+nav p:nth-child(2n)::first-letter{
+    color:red;
+    font-size: 20px;;
+
+}
+    
+
+
